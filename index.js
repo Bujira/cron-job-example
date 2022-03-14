@@ -5,6 +5,6 @@ app = express();
 
 cron.schedule(
   "*/3 * * * * *",
-  () => console.log("Executando a tarefa a cada 3 segundos!"));
+  () => console.log("Executing a task every 3 seconds!"));
 
 app.listen(1313, () => console.log("Server is running..."));
